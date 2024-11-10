@@ -78,7 +78,7 @@ export default function Textarea({
       {lineNumbersVisible && (
         <div
           ref={lineNumberRef}
-          className="w-10 flex items-start flex-col border-r-2 border-slate-300 p-2 overflow-y-auto"
+          className="w-10 flex items-start flex-col border-r-2 border-slate-300 p-2 overflow-y-auto select-none"
           style={{ maxHeight: "400px" }}
         >
           {lineNumbers.map((line, index) => (
